@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Приклади коду</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">IT-шник</div>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="analytics.html">Аналітика</a></li>
+            </ul>
+        </nav>
+        <div class="hero examples-hero">
+            <h1>Приклади коду</h1>
+            <p>Базові приклади популярних мов програмування</p>
+            <div class="hero-animation"></div>
+        </div>
+    </header>
+    <section class="examples-section">
+        <div class="container">
+            <div class="examples-grid">
+                <div class="example-card">
+                    <h3>HTML</h3>
+                    <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Приклад&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Привіт, світ!&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+                </div>
+                <div class="example-card">
+                    <h3>CSS</h3>
+                    <pre><code>.card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}</code></pre>
+                </div>
+                <div class="example-card">
+                    <h3>JavaScript</h3>
+                    <pre><code>function greet(name) {
+    return `Привіт, ${name}!`;
+}
+console.log(greet("Світ"));</code></pre>
+                </div>
+                <div class="example-card">
+                    <h3>Java</h3>
+                    <pre><code>public class Hello {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}</code></pre>
+                </div>
+                <div class="example-card">
+                    <h3>Python</h3>
+                    <pre><code>def factorial(n):
+    if n == 0:
+        return 1
+    return n * factorial(n-1)
+print(factorial(5))</code></pre>
+                </div>
+                <div class="example-card">
+                    <h3>C#</h3>
+                    <pre><code>using System;
+
+class Program {
+    static void Main() {
+        Console.WriteLine("Hello, World!");
+    }
+}</code></pre>
+                </div>
+                <div class="example-card">
+                    <h3>C++</h3>
+                    <pre><code>#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    cout &lt;&lt; "Hello, World!" &lt;&lt; endl;
+    return 0;
+}</code></pre>
+                </div>
+                <div class="example-card">
+                    <h3>Lua</h3>
+                    <pre><code>function greet(name)
+    return "Привіт, " .. name .. "!"
+end
+
+print(greet("Світ"))</code></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="tools-section">
+        <div class="container">
+            <h2>Інструменти для програмування</h2>
+            <div class="tools-grid">
+                <a href="https://www.jetbrains.com/idea/" target="_blank" class="tool-card">IntelliJ IDEA</a>
+                <a href="https://code.visualstudio.com/" target="_blank" class="tool-card">Visual Studio Code</a>
+                <a href="https://www.jetbrains.com/pycharm/" target="_blank" class="tool-card">PyCharm</a>
+                <a href="https://www.eclipse.org/" target="_blank" class="tool-card">Eclipse</a>
+                <a href="https://www.sublimetext.com/" target="_blank" class="tool-card">Sublime Text</a>
+                <a href="https://notepad-plus-plus.org/" target="_blank" class="tool-card">Notepad++</a>
+                <a href="https://www.vim.org/" target="_blank" class="tool-card">Vim</a>
+                <a href="https://www.gnu.org/software/emacs/" target="_blank" class="tool-card">Emacs</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Тема 15 Професія - IT-шник. Сайт вiд Пащенко Сергiя i Поведенко Ксенiї.</p>
+    </footer>
+</body>
+</html>
